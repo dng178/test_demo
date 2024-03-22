@@ -1,0 +1,129 @@
+body {
+    font-family: Montserrat;
+    margin: 0;
+}
+.home-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF2F3;
+    font-size: 14px;
+    font-weight: 700;
+    max-width: 100%;
+    padding: 10px 280px 20px 185px;
+    min-width: 900px;
+}
+.home-header .brand-name{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-right: 87px;
+    color: #252B42;
+    letter-spacing: 0.1px;
+}
+.menu-title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.menu-option {
+    display: flex;
+    color: #737373;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.option {
+    margin-right: 21px;
+}
+.option :first-child{
+    margin-right: 0;
+}
+.login-option {
+    display: flex;
+    color: #96BB7C;
+}
+.login-option .join-btn{
+    margin-left: 45px;
+    text-transform: uppercase;
+    width: 137px;
+    height: 52px;
+    /* padding: 15px, 25px, 15px, 25px; */
+    gap: 15px;
+}
+.join-btn svg{
+    margin-left: 15px !important;
+}
+.intro-text {
+    padding-bottom: 100px;
+
+}
+.welcome-section{
+    background: #FFF2F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 117px;
+    /* min-width: 900px; */
+}
+.welcome-txt {
+    font-size: 16px;
+    font-weight: 700;
+    color: #96BB7C;
+    letter-spacing: 0.1px;
+}
+.big-title{
+    font-size: 58px;
+    font-weight: 700;
+    color: #252B42;
+    letter-spacing: 0.2px;
+    margin-bottom: 32px;
+    margin-top: 35px;
+}
+.small-title {
+    font-size: 20px;
+    color: #737373;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+.button-section {
+    margin-top: 32px;
+    display: flex;
+    justify-content: start;
+}
+.button-section .btn--second{
+    margin-left: 10px;
+}
+
+
+
+.btn:hover{
+    opacity: 0.9;
+}
+.btn {
+    font-family: Montserrat;
+    background: #96BB7C;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    height: 52px;
+    border-radius: 5px;
+    padding: 15px, 25px, 15px, 25px;
+    min-width: 132px;
+    max-width: 162px;
+    border: none;
+    box-shadow: none;
+}
+
+.btn--second:hover {
+    opacity: 0.6;
+    /* color: #FFFFFF;
+    background: #96BB7C; */
+}
+.btn--second {
+    border: 1px solid #96BB7C;
+    color: #96BB7C;
+    background: #FFFFFF;
+}
+.pointer {
+    cursor: pointer;
+}

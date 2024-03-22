@@ -127,6 +127,73 @@ body {
 .learn-section svg {
     padding-left: 10px;
 }
+.team-section {
+    padding:  0px 195px 88px 195px;
+}
+.team-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.team-txt {
+    color: #96BB7C;
+    font-size: 14px;
+    font-weight: 700;
+}
+.team-title {
+    font-size: 24px;
+    color: #252B42;
+    font-weight: 700;
+    margin: 12px 0;
+}
+.team--title-detail {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.team-list {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-info{
+    border-radius: 20px;
+    max-width: 238px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.member-img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.team-name{
+    font-size: 16px;
+    font-weight: 700;
+    color: #252B42;
+    margin-top: 30px;
+}
+.career{
+    font-size: 12px;
+    font-weight: 400;
+    color: #737373;
+    margin: 10px 0;
+}
+.team-contact {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
 
 .btn:hover{
     opacity: 0.9;

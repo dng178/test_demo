@@ -93,8 +93,40 @@ body {
 .button-section .btn--second{
     margin-left: 10px;
 }
+.package-section{
+    display: flex;
+    margin-top: 200px;
+    padding-left: 195px;
+}
 
-
+.headline{
+    background: #E74040;
+    width: 94px;
+    height: 7px;
+}
+.package-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #252B42;
+    margin: 35px 0;
+}
+.detail-package{
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+}
+.learn-section{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #96BB7C;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+.learn-section svg {
+    padding-left: 10px;
+}
 
 .btn:hover{
     opacity: 0.9;

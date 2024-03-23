@@ -2,6 +2,10 @@ body {
     font-family: Montserrat;
     margin: 0;
 }
+.main{
+    max-width: 1490px;
+    margin: auto;
+}
 .home-header {
     display: flex;
     align-items: center;
@@ -10,16 +14,21 @@ body {
     font-size: 14px;
     font-weight: 700;
     max-width: 100%;
-    padding: 10px 280px 20px 185px;
-    min-width: 900px;
+    padding: 10px 280px 24px 245px;
+    max-width: 1490px;
+    margin: auto;
+    /* min-width: 900px; */
 }
 .home-header .brand-name{
     font-size: 24px;
     font-weight: 700;
+    font-style: normal;
     line-height: 32px;
-    margin-right: 87px;
+    margin-right: 83px;
     color: #252B42;
-    letter-spacing: 0.1px;
+    /* letter-spacing: 0.1px;
+    line-height: 32px; */
+    margin-left: -0.5px;
 }
 .menu-title {
     display: flex;
@@ -33,7 +42,7 @@ body {
     letter-spacing: 0.2px;
 }
 .option {
-    margin-right: 21px;
+    margin-right: 19px;
 }
 .option :first-child{
     margin-right: 0;
@@ -41,6 +50,9 @@ body {
 .login-option {
     display: flex;
     color: #96BB7C;
+}
+.login-option p{
+    padding-bottom: 5px;
 }
 .login-option .join-btn{
     margin-left: 45px;
@@ -54,7 +66,7 @@ body {
     margin-left: 15px !important;
 }
 .intro-text {
-    padding-bottom: 100px;
+    padding-bottom: 19px;
 
 }
 .welcome-section{
@@ -62,28 +74,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 117px;
+    padding-left: 182px;
+    /* padding-top: 100px; */
     /* min-width: 900px; */
 }
 .welcome-txt {
     font-size: 16px;
     font-weight: 700;
     color: #96BB7C;
-    letter-spacing: 0.1px;
+    letter-spacing: -0.5px;
+    padding-bottom: 1%;
 }
 .big-title{
     font-size: 58px;
     font-weight: 700;
     color: #252B42;
-    letter-spacing: 0.2px;
-    margin-bottom: 32px;
-    margin-top: 35px;
+    letter-spacing: -1.4px;
 }
 .small-title {
     font-size: 20px;
     color: #737373;
     font-weight: 400;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.4px;
+    padding-top: 17%;
 }
 .button-section {
     margin-top: 32px;
@@ -95,8 +108,12 @@ body {
 }
 .package-section{
     display: flex;
-    margin-top: 200px;
-    padding-left: 195px;
+    margin-top: 92px;
+    padding-left: 243px;
+}
+.package-text{
+    margin-left: 30px;
+    padding-top: 150px;
 }
 
 .headline{
@@ -109,11 +126,13 @@ body {
     font-size: 40px;
     color: #252B42;
     margin: 35px 0;
+    letter-spacing: -0.8px;
 }
 .detail-package{
     font-size: 14px;
     font-weight: 400;
     color: #737373;
+    padding-top: 5px;
 }
 .learn-section{
     display: flex;
@@ -122,13 +141,14 @@ body {
     color: #96BB7C;
     font-size: 14px;
     font-weight: 700;
-    margin-top: 35px;
+    margin-top: 46px;
 }
 .learn-section svg {
     padding-left: 10px;
 }
 .team-section {
-    padding:  0px 195px 88px 195px;
+    padding:  36px 243px 125px 245px;
+
 }
 .team-detail {
     display: flex;
@@ -157,12 +177,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 32px;
 }
 
 .team-info{
     border-radius: 20px;
     max-width: 238px;
-    height: 375px;
+    height: 394px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,9 +204,10 @@ body {
     font-size: 12px;
     font-weight: 400;
     color: #737373;
-    margin: 10px 0;
+    margin: 17px 0;
 }
 .team-contact {
+    margin-bottom: 7px;
     display: flex;
     width: 120px;
     justify-content: space-between;
@@ -194,7 +216,7 @@ body {
 .home-footer {
     display: flex;
     flex-direction: column;
-    padding:  0px 195px;
+    padding:  15px 120px 0px 245px;
 }
 .other-info{
     display: flex;
@@ -203,6 +225,11 @@ body {
 .footer-col {
     display: flex;
     flex-direction: column;
+    /* margin-left: 50px; */
+}
+.footer-col:first-child{
+    /* margin-left: 0px; */
+
 }
 .footer-title{
     font-size: 16px;
@@ -214,7 +241,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1.2px;
-    margin-top: 10px;
+    margin-top: 14px;
     display: flex;
     justify-content: start;
     gap: 9px;
@@ -224,7 +251,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 0;
+    padding-top: 78px;
+}
+.foot-contact{
+    padding-right: 135px;
 }
 .footer-info p{
     font-size: 14px;
@@ -245,7 +275,6 @@ body {
     border-radius: 5px;
     padding: 15px, 25px, 15px, 25px;
     min-width: 132px;
-    max-width: 162px;
     border: none;
     box-shadow: none;
 }
@@ -259,6 +288,8 @@ body {
     border: 1px solid #96BB7C;
     color: #96BB7C;
     background: #FFFFFF;
+    width: 162px;
+
 }
 .pointer {
     cursor: pointer;
